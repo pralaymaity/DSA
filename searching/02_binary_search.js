@@ -1,7 +1,7 @@
 // binary search-------------------------------
 
 let arr = [-1, 0, 3, 4, 7, 9, 12];
-let target = 0;
+let target = 3;
 
 function binarySearch(arr, target) {
   let start = 0;
@@ -21,6 +21,6 @@ function binarySearch(arr, target) {
     }
   }
 
-  return -1;
+  return "value not found";
 }
 console.log(binarySearch(arr, target));
